@@ -1,0 +1,12 @@
+{
+  "name": "smartfox-crossbyte",
+  "version": "0.0.1",
+  "classPath": "src",
+  "license": "MIT",
+  "url": "https://github.com/DimensionscapeOrg/smartfox-crossbyte",
+  "contributors": ["Dimensionscape"],
+  "description": "Host-driven Crossbyte WebSocket transport and configurable SmartFox packet framing for Haxe clients.",
+  "tags": ["smartfox", "crossbyte", "networking", "websocket"],
+  "releasenote": "Initial transport and framing adapter; game protocol and SFS serialization are external.",
+  "dependencies": {"crossbyte": ""}
+}

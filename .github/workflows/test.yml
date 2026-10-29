@@ -1,0 +1,11 @@
+name: Tests
+on: [push, pull_request]
+jobs:
+  packets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: krdlab/setup-haxe@v1
+        with:
+          haxe-version: 4.3.7
+      - run: haxe test.hxml
